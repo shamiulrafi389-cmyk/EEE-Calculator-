@@ -1,0 +1,95 @@
+body{
+margin:0;
+font-family:sans-serif;
+background:linear-gradient(135deg,#0f172a,#1e293b);
+color:white;
+}
+
+/* LAYOUT */
+.app{
+display:flex;
+min-height:100vh;
+}
+
+/* SIDEBAR */
+.sidebar{
+width:220px;
+background:rgba(255,255,255,0.05);
+backdrop-filter:blur(10px);
+padding:20px;
+}
+
+.sidebar button{
+width:100%;
+margin:10px 0;
+padding:12px;
+background:#1e293b;
+border:none;
+color:white;
+border-radius:10px;
+transition:0.3s;
+}
+
+.sidebar button:hover{
+background:#3b82f6;
+transform:scale(1.05);
+}
+
+/* CONTENT */
+.content{
+flex:1;
+padding:30px;
+}
+
+/* CARD */
+.card{
+background:rgba(255,255,255,0.05);
+backdrop-filter:blur(10px);
+padding:20px;
+border-radius:15px;
+max-width:400px;
+box-shadow:0 0 20px rgba(0,0,0,0.5);
+}
+
+.hidden{
+display:none;
+}
+
+/* INPUT */
+input,select{
+width:100%;
+padding:10px;
+margin:10px 0;
+border-radius:8px;
+border:none;
+background:#0f172a;
+color:white;
+}
+
+/* BUTTON */
+button{
+padding:10px;
+background:#3b82f6;
+border:none;
+border-radius:8px;
+color:white;
+cursor:pointer;
+}
+
+/* FOOTER */
+footer{
+text-align:center;
+padding:30px;
+background:#020617;
+}
+
+footer img{
+width:90px;
+border-radius:50%;
+box-shadow:0 0 20px #3b82f6;
+}
+
+footer a{
+color:#3b82f6;
+text-decoration:none;
+}
