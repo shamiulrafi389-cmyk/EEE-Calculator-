@@ -1,95 +1,78 @@
-body{
-margin:0;
-font-family:sans-serif;
-background:linear-gradient(135deg,#0f172a,#1e293b);
-color:white;
+body {
+margin: 0;
+font-family: Arial;
+background: #0b1220;
+color: white;
 }
 
-/* LAYOUT */
-.app{
-display:flex;
-min-height:100vh;
+header {
+text-align: center;
+padding: 20px;
 }
 
-/* SIDEBAR */
-.sidebar{
-width:220px;
-background:rgba(255,255,255,0.05);
-backdrop-filter:blur(10px);
-padding:20px;
+.container {
+display: flex;
 }
 
-.sidebar button{
-width:100%;
-margin:10px 0;
-padding:12px;
-background:#1e293b;
-border:none;
-color:white;
-border-radius:10px;
-transition:0.3s;
+.sidebar {
+width: 200px;
+background: #111a2e;
+padding: 10px;
 }
 
-.sidebar button:hover{
-background:#3b82f6;
-transform:scale(1.05);
+.sidebar button {
+width: 100%;
+margin: 10px 0;
+padding: 10px;
+border: none;
+background: #1c2740;
+color: white;
+border-radius: 10px;
+cursor: pointer;
 }
 
-/* CONTENT */
-.content{
-flex:1;
-padding:30px;
+.content {
+flex: 1;
+padding: 20px;
 }
 
-/* CARD */
-.card{
-background:rgba(255,255,255,0.05);
-backdrop-filter:blur(10px);
-padding:20px;
-border-radius:15px;
-max-width:400px;
-box-shadow:0 0 20px rgba(0,0,0,0.5);
+.card {
+background: #1c2740;
+padding: 20px;
+border-radius: 15px;
+width: 300px;
 }
 
-.hidden{
-display:none;
+.hidden {
+display: none;
 }
 
-/* INPUT */
-input,select{
-width:100%;
-padding:10px;
-margin:10px 0;
-border-radius:8px;
-border:none;
-background:#0f172a;
-color:white;
+input {
+width: 100%;
+margin: 10px 0;
+padding: 10px;
+border-radius: 10px;
+border: none;
 }
 
-/* BUTTON */
-button{
-padding:10px;
-background:#3b82f6;
-border:none;
-border-radius:8px;
-color:white;
-cursor:pointer;
+button {
+padding: 10px;
+background: #3b82f6;
+border: none;
+color: white;
+border-radius: 10px;
+cursor: pointer;
 }
 
-/* FOOTER */
-footer{
-text-align:center;
-padding:30px;
-background:#020617;
+footer {
+text-align: center;
+margin-top: 50px;
+padding: 20px;
+background: #0a0f1a;
 }
 
-footer img{
-width:90px;
-border-radius:50%;
-box-shadow:0 0 20px #3b82f6;
-}
-
-footer a{
-color:#3b82f6;
-text-decoration:none;
+footer img {
+width: 100px;
+border-radius: 50%;
+box-shadow: 0 0 20px blue;
 }
